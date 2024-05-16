@@ -17,33 +17,33 @@
         <table>
             <tr>
                 <td>
-                    <p class="heading">Date</p>
+                    <p class="heading" >Date</p>
                 </td>
-                <td><input class="input" type="text" placeholder="25"></td>
+                <td><input class="input" id="userDate" type="text" placeholder="25"></td>
             </tr>
             <tr>
                 <td>
                     <p class="heading">Month</p>
                 </td>
-                <td><input class="input" type="text" placeholder="June"></td>
+                <td><input class="input" id="userMonth" type="text" placeholder="June"></td>
             </tr>
             <tr>
                 <td>
                     <p class="heading">Year</p>
                 </td>
-                <td><input class="input" type="text" placeholder="2010"></td>
+                <td><input class="input" id="userYear" type="text" placeholder="2010"></td>
             </tr>
         </table>
 
-        <button>Calculate</button>
+        <button onclick="userDOB()">Calculate</button>
 
         <div class="age">
             <p class="hd">Your Age is</p>
-            <p class="opt"><span>29</span> Year <span>0</span> Months <span>6</span> Day</p>
+            <p class="opt"><span id="ageYears">20</span> Years <span id="ageMonths">8</span> Months <span id="ageDays">21</span> Days</p>
         </div>
         <div class="dob">
             <p class="hd">Your Date of Birth is</p>
-            <p class="opt"><span>Sunday</span> <span>September</span>, <span>18</span>, <span>1997</span></p>
+            <p class="opt"><span id="dobDayOfWeek"></span>, <span id="dobMonth"></span> <span id="dobDate"></span>, <span id="dobYear"></span></p>
         </div>
 
         <h2>You Already Lived</h2>
@@ -51,23 +51,23 @@
         <table>
             <tr>
                 <td class="thd">In Years</td>
-                <td class="thd"><span>18</span> Years</td>
+                <td class="thd"><span id="livedYears" >18</span> Years</td>
             </tr>
             <tr>
                 <td class="thd">In Months</td>
-                <td class="thd"><span>185</span> Months</td>
+                <td class="thd"><span id="livedMonths" >185</span> Months</td>
             </tr>
             <tr>
                 <td class="thd">In Weeks</td>
-                <td class="thd"><span>1833</span> Weeks</td>
+                <td class="thd"><span id="livedWeeks" >1833</span> Weeks</td>
             </tr>
             <tr>
                 <td class="thd">In Days</td>
-                <td class="thd"><span>8828</span> Days</td>
+                <td class="thd"><span id="livedDays" >8828</span> Days</td>
             </tr>
             <tr>
                 <td class="thd">In Hours</td>
-                <td class="thd"><span>1801515</span> Hours</td>
+                <td class="thd"><span id="livedYears" >1801515</span> Hours</td>
             </tr>
         </table>
 
@@ -75,6 +75,8 @@
     <div class="footer">
         <p>Develop by: Abdul Ahad</p>
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

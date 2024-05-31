@@ -7,9 +7,10 @@
 body {
     width: 100%;
     min-height: 100%;
-    background-color: #7AB2B2;
     font-family: "General Sans";
     align-content: center;
+    background-color: #7AB2B2;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
 }
 
 .age_calculator {
@@ -19,8 +20,9 @@ body {
     height: auto;
     padding: 1em .75em;
     margin: 4em auto;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, 
-                rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: 1px solid #0000004b;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -31,6 +33,7 @@ h1 {
     font-size: 1.7em;
     padding: 1em;
     color: black;
+
 }
 
 .input {
@@ -64,9 +67,10 @@ button {
     text-transform: uppercase;
     letter-spacing: 2px;
     border-width: 3px;
-    border-color: #C40C0C;
+    border: 3px solid #C40C0C;
     border-radius: 20px;
     transition: all 0.3s;
+
 }
 
 button:hover {
